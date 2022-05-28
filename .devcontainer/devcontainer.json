@@ -1,0 +1,48 @@
+// For format details, see https://aka.ms/devcontainer.json. For config options, see the README at:
+// https://github.com/microsoft/vscode-dev-containers/tree/v0.234.0/containers/javascript-node
+{
+	"name": "Jqshuv Portfolio",
+	"build": {
+		"dockerfile": "Dockerfile",
+		// Update 'VARIANT' to pick a Node version: 18, 16, 14.
+		// Append -bullseye or -buster to pin to an OS version.
+		// Use -bullseye variants on local arm64/Apple Silicon.
+		"args": { "VARIANT": "18-bullseye" }
+	},
+
+	// Set *default* container specific settings.json values on container create.
+	"settings": {
+		"licenser.author": "Joshua Schmitt",
+    	"licenser.license": "MIT",
+		"licenser.projectName": "Jqshuv's Portfolio"
+	},
+
+	// Add the IDs of extensions you want installed when the container is created.
+	"extensions": [
+		"dbaeumer.vscode-eslint",
+		"vivaxy.vscode-conventional-commits",
+		"aaron-bond.better-comments",
+		"EditorConfig.EditorConfig",
+		"vector-of-bool.gitflow",
+		"GitHub.copilot",
+		"tht13.html-preview-vscode",
+		"abusaidm.html-snippets",
+		"ymotongpoo.licenser",
+		"eg2.vscode-npm-script"
+	],
+
+	// Use 'forwardPorts' to make a list of ports inside the container available locally.
+	"forwardPorts": [ 3000 ],
+
+	// Use 'postCreateCommand' to run commands after the container is created.
+	"postCreateCommand": "yarn install",
+
+	// Comment out to connect as root instead. More info: https://aka.ms/vscode-remote/containers/non-root.
+	"remoteUser": "node",
+	"features": {
+		"git": "latest",
+		"git-lfs": "latest",
+		"github-cli": "latest",
+		"python": "latest"
+	}
+}
