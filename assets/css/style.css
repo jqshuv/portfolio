@@ -43,8 +43,7 @@ a:visited {
 }
 
 a:active,
-a:hover {
-  /* color: #f94348; */
+/* a:hover {
   background: linear-gradient(
     90deg,
     rgba(249, 67, 72, 1) 15%,
@@ -53,7 +52,7 @@ a:hover {
   );
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-}
+} */
 
 a img {
   position: absolute;
