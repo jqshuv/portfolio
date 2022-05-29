@@ -1,17 +1,17 @@
 /**
  * Copyright (c) 2022 Joshua Schmitt
- * 
+ *
  * This software is released under the MIT License.
  * https://opensource.org/licenses/MIT
  */
 
-@import url("https://fonts.googleapis.com/css2?family=Ubuntu+Mono");
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu+Mono');
 
 body {
   margin: 0;
   padding: 50px;
   background: #121520;
-  font: 16px/28px "Ubuntu Mono", monospace;
+  font: 16px/28px 'Ubuntu Mono', monospace;
 }
 
 article,
@@ -39,11 +39,10 @@ a:visited {
   color: #676e8a;
   padding: 4px;
   text-decoration: none;
-  transition: all 5s ease-in-out;
 }
 
 a:active,
-/* a:hover {
+a:hover {
   background: linear-gradient(
     90deg,
     rgba(249, 67, 72, 1) 15%,
@@ -52,7 +51,7 @@ a:active,
   );
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-} */
+}
 
 a img {
   position: absolute;
@@ -169,7 +168,8 @@ a img {
   width: 35%;
 }
 
-.input-small::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+.input-small::-webkit-input-placeholder {
+  /* WebKit, Blink, Edge */
   color: rgb(211, 204, 204);
 }
 
@@ -183,7 +183,8 @@ a img {
   width: 70%;
 }
 
-.input-large::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+.input-large::-webkit-input-placeholder {
+  /* WebKit, Blink, Edge */
   color: rgb(211, 204, 204);
 }
 
@@ -195,4 +196,25 @@ a img {
   padding: 4px;
   margin: 4px;
   width: 12%;
+}
+
+.navbar {
+  color: #676e8a;
+  text-align: right;
+  padding: 4px;
+  text-decoration: none;
+  display: block;
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.navbar:active {
+  background: linear-gradient(
+    90deg,
+    rgba(249, 67, 72, 1) 15%,
+    rgba(146, 97, 255, 1) 30%,
+    rgba(60, 197, 248, 1) 70%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }

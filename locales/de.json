@@ -1,0 +1,54 @@
+{
+  "index": {
+    "comment": "Grüß dich! Das hier ist mein Portfolio.",
+    "text": {
+      "1": "Ich bin 14 Jahre alt und bin momentan Schüler an einem Gymnasium in Deutschland. Im Moment lerne ich JavaScript, React, Java, HTML, CSS und Python. Dazu liebe ich Ubuntu Server und arbeite zum Glück mit ihnen jeden Tag. Außerdem spiele ich ab und zu auch spiele wie Minecraft oder manchmal auch Call of Duty.",
+      "2": "Im moment arbeite ich an Projekten in meiner GitHub Organisation | wie z.B. | oder ",
+      "3": "Ich bin sehr in DevOps, Docker und Kubernetes interessiert und lerne im moment, wie ich sie richtig benutze."
+    },
+    "footer": "Ich danke dir, dass du diese Seite überhaupt besuchst. 🤍"
+  },
+  "credits": {
+    "title": "Credits",
+    "comment": "Credits an verschiedene Menschen.",
+    "people": {
+        "remy": {
+            "name": "Remy",
+            "description": "Er hat den Grund CSS code für die Seite geschrieben und mich für dieses Projekt inspiriert"
+        }
+    }
+  },
+  "legal-notice": {
+    "title": "Impressum",
+    "comment": {
+      "service-provider": "Dienstanbieter",
+      "contact-options": "Kontaktmöglichkeiten"
+    },
+    "contact": {
+      "email": "E-Mail",
+      "phone": "Telefon",
+      "contact-form": "Kontaktformular"
+    },
+    "info": {
+      "email": {
+        "at": "Wechsle das [at] Zeichen in das '@' Zeichen um"
+      }
+    }
+  },
+  "licenses": {
+    "title": "Lizenzen",
+    "comment": "Hier sind alle Lizenzen, die ich in meinen Projekten benutze.",
+    "license": {
+      "mit": "MIT Lizenz",
+      "isc": "ISC Lizenz"
+    }
+  },
+  "element": {
+    "rainbow": "Zurück zur Startseite. 🏠",
+    "footer": {
+      "credits": "Credits",
+      "source": "Quelle",
+      "legal-notice": "Impressum"
+    }
+  }
+}

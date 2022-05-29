@@ -1,0 +1,54 @@
+{
+  "index": {
+    "comment": "Hello there! This is my portfolio website.",
+    "text": {
+      "1": "I am 14 years old and currently studying at a gymnasium in Germany. I'm currently learning JavaScript, React, Java, HTML, CSS and Python. I like Ubuntu servers and working with them everyday. Also I like to play video games like Minecraft and sometimes Call of Duty.",
+      "2": "Currently I'm working at some projects in my GitHub organisation | like | or ",
+      "3": "I'm also very interested in DevOps, Docker and Kubernetes and I'm currently learning how to use them."
+    },
+    "footer": "Thak you so much for visiting this page. 🤍"
+  },
+  "credits": {
+    "title": "Credits",
+    "comment": "Credits to people.",
+    "people": {
+        "remy": {
+            "name": "Remy",
+            "description": "He has made the style and the layout of this website. He also gave me the Idea of this website."
+        }
+    }
+  },
+  "legal-notice": {
+    "title": "Legal Notice",
+    "comment": {
+      "service-provider": "Service Provider",
+      "contact-options": "Contact Options"
+    },
+    "contact": {
+      "email": "Email",
+      "phone": "Phone",
+      "contact-form": "Contact Form"
+    },
+    "info": {
+      "email": {
+        "at": "Change the '[at]' with the '@' symbol"
+      }
+    }
+  },
+  "licenses": {
+    "title": "Licenses",
+    "comment": "Here are all licenses I use for my projects.",
+    "license": {
+      "mit": "MIT License",
+      "isc": "ISC License"
+    }
+  },
+  "element": {
+    "rainbow": "Go back to the home. 🏠",
+    "footer": {
+      "credits": "Credits",
+      "source": "Source",
+      "legal-notice": "Legal Notice"
+    }
+  }
+}

@@ -1,29 +1,19 @@
 <!--
  Copyright (c) 2022 Joshua Schmitt
- 
+
  This software is released under the MIT License.
  https://opensource.org/licenses/MIT
 -->
 
-<!DOCTYPE html>
-<html id="home" lang="en">
-  <head>
-    <title>MIT License</title>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=0.70;" />
-    <link rel="shortcut icon" type="image/png" href="../assets/images/favicon.ico" />
-    <link rel="stylesheet" href="../assets/css/style.css" />
-  </head>
-  <body>
+<template>
+  <div>
     <article>
       <h1 class="rainbow-header">The MIT License (MIT)</h1>
 
       <p class="comment">
         Copyright (c) 2022
-        
-        <a href="https://jqshuv.xyz">
-          Joshua Schmitt
-        </a>
+
+        <a href="https://jqshuv.xyz"> Joshua Schmitt </a>
 
         <a href="mailto:jqshuv@gmail.com?subject=Hello%20👋&body=Info:%20Send%20from%20license%20site.%0A">
           &lt;jqshuv@gmail.com&gt;
@@ -54,29 +44,17 @@
         TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE
         SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
       </p>
+
+      <DefaultRainbow />
     </article>
     <footer>
-      <p>
-        <a href="https://jqshuv.xyz/contact">
-          Contact
-        </a>
-
-        <a>
-          –
-        </a>
-
-        <a href="../credits">
-          Credits
-        </a>
-
-        <a>
-          –
-        </a>
-
-        <a href="https://github.com/jqshuv/portfolio">
-          Source
-        </a>
-      </p>
+      <DefaultFooter />
     </footer>
-  </body>
-</html>
+  </div>
+</template>
+
+<script>
+export default {
+    name: "MITLicensePage",
+}
+</script>
