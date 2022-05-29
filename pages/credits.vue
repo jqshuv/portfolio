@@ -12,7 +12,10 @@
       <p class="comment">{{ $t('credits.comment') }}</p>
       <p>
         <li class="text-white">
-          <a href="https://github.com/remy">{{ $t('credits.people.remy.name') }}</a>: {{ $t('credits.people.remy.description') }}
+          <a href="https://github.com/remy">{{
+            $t('credits.people.remy.name')
+          }}</a
+          >: {{ $t('credits.people.remy.description') }}
         </li>
       </p>
       <DefaultRainbow />
@@ -25,6 +28,6 @@
 
 <script>
 export default {
-    name: "CreditSite",
+  name: 'CreditSite',
 }
 </script>

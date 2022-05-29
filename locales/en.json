@@ -12,10 +12,10 @@
     "title": "Credits",
     "comment": "Credits to people.",
     "people": {
-        "remy": {
-            "name": "Remy",
-            "description": "He has made the style and the layout of this website. He also gave me the Idea of this website."
-        }
+      "remy": {
+        "name": "Remy",
+        "description": "He has made the style and the layout of this website. He also gave me the Idea of this website."
+      }
     }
   },
   "legal-notice": {

@@ -6,11 +6,11 @@
 -->
 
 <template>
-    <p class="rainbow">
-      <nuxt-link :to="localePath('/')">
-        {{ $t('element.rainbow') }}
-      </nuxt-link>
-    </p>
+  <p class="rainbow">
+    <nuxt-link :to="localePath('/')">
+      {{ $t('element.rainbow') }}
+    </nuxt-link>
+  </p>
 </template>
 
 <!-- <script>

@@ -38,6 +38,6 @@
 
 <script>
 export default {
-    name: "LicensePage",
+  name: 'LicensePage',
 }
 </script>

@@ -15,7 +15,9 @@
 
         <a href="https://jqshuv.xyz"> Joshua Schmitt </a>
 
-        <a href="mailto:jqshuv@gmail.com?subject=Hello%20👋&body=Info:%20Send%20from%20license%20site.%0A">
+        <a
+          href="mailto:jqshuv@gmail.com?subject=Hello%20👋&body=Info:%20Send%20from%20license%20site.%0A"
+        >
           &lt;jqshuv@gmail.com&gt;
         </a>
       </p>
@@ -55,6 +57,6 @@
 
 <script>
 export default {
-    name: "MITLicensePage",
+  name: 'MITLicensePage',
 }
 </script>

@@ -28,4 +28,3 @@
     </nuxt-link>
   </p>
 </template>
-

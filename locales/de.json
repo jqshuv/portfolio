@@ -12,10 +12,10 @@
     "title": "Credits",
     "comment": "Credits an verschiedene Menschen.",
     "people": {
-        "remy": {
-            "name": "Remy",
-            "description": "Er hat den Grund CSS code für die Seite geschrieben und mich für dieses Projekt inspiriert"
-        }
+      "remy": {
+        "name": "Remy",
+        "description": "Er hat den Grund CSS code für die Seite geschrieben und mich für dieses Projekt inspiriert"
+      }
     }
   },
   "legal-notice": {
