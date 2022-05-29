@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/", {data:[{path:"de",text:"Deutsch"}],fetch:{},mutations:void 0});
