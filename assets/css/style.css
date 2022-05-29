@@ -39,11 +39,11 @@ a:visited {
   color: #676e8a;
   padding: 4px;
   text-decoration: none;
-  transition: all 5s ease-in-out;
+  /* transition: all 5s ease-in-out;*/
 }
 
 a:active,
-/* a:hover {
+a:hover {
   background: linear-gradient(
     90deg,
     rgba(249, 67, 72, 1) 15%,
@@ -52,7 +52,7 @@ a:active,
   );
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-} */
+}
 
 a img {
   position: absolute;
