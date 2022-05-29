@@ -17,7 +17,7 @@
 
     <a> – </a>
 
-    <a href="https://github.com/jqshuv/portfolio">
+    <a target="_blank" href="https://github.com/jqshuv/portfolio">
       {{ $t('element.footer.source') }}
     </a>
 
