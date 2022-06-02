@@ -79,7 +79,6 @@
               Google Crawler;
             </span>
           </li>
-          <p>{{ link }}</p>
         </span>
       </div>
       <DefaultRainbow />
