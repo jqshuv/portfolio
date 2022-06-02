@@ -4,22 +4,9 @@
  This software is released under the MIT License.
  https://opensource.org/licenses/MIT
 -->
-
-<!--
- Copyright (c) 2022 Joshua Schmitt
-
- This software is released under the MIT License.
- https://opensource.org/licenses/MIT
--->
-
-<!--
- Copyright (c) 2022 Joshua Schmitt
-
- This software is released under the MIT License.
- https://opensource.org/licenses/MIT
--->
 <template>
   <div>
+    <LanguageHeader />
     <article>
       <h1 class="rainbow-header">{{ $t('legal-notice.title') }}</h1>
 

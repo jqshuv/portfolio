@@ -13,6 +13,7 @@
 -->
 <template>
   <div>
+    <LanguageHeader />
     <article>
       <h1 class="rainbow-header">{{ $t('licenses.title') }}</h1>
       <p class="comment">{{ $t('licenses.comment') }}</p>

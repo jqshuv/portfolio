@@ -1,8 +1,6 @@
 <template>
   <div>
-    <div class="navbar">
-      <nuxt-link :to="switchLocalePath(path)">{{ text }}</nuxt-link>
-    </div>
+    <LanguageHeader />
     <article>
       <h1 class="rainbow-header">Joshua Schmitt</h1>
       <p class="comment">{{ $t('index.comment') }}</p>
@@ -33,23 +31,7 @@
 </template>
 
 <script>
-import DefaultFooter from '~/components/DefaultFooter.vue'
-
 export default {
   name: 'IndexPage',
-  components: { DefaultFooter },
-  asyncData({ app }) {
-    if (app.i18n.locale === 'de') {
-      return {
-        path: 'en',
-        text: 'English',
-      }
-    } else if (app.i18n.locale === 'en') {
-      return {
-        path: 'de',
-        text: 'Deutsch',
-      }
-    }
-  },
 }
 </script>

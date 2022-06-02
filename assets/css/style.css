@@ -100,7 +100,7 @@ a img {
 }
 
 .text-white {
-  color: #fff;
+  color: #e1e3ee;
 }
 
 .text-gray {
@@ -161,7 +161,7 @@ a img {
 .input-small {
   border: 1px solid #7780a1;
   background-color: #676e8a;
-  color: #fff;
+  color: #e1e3ee;
   border-radius: 4px;
   padding: 4px;
   margin: 4px;
@@ -176,7 +176,7 @@ a img {
 .input-large {
   border: 1px solid #7780a1;
   background-color: #676e8a;
-  color: #fff;
+  color: #e1e3ee;
   border-radius: 4px;
   padding: 4px;
   margin: 4px;
@@ -191,7 +191,7 @@ a img {
 .button-submit {
   border: 1px solid #7780a1;
   background-color: #676e8a;
-  color: #fff;
+  color: #e1e3ee;
   border-radius: 4px;
   padding: 4px;
   margin: 4px;
@@ -217,4 +217,22 @@ a img {
   );
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+}
+
+::-moz-selection {
+  color: #121520;
+  background: #e1e3ee;
+}
+
+::selection {
+  color: #121520;
+  background: #e1e3ee;
+}
+
+li {
+  color: #e1e3ee;
+}
+
+.no-list {
+  list-style: none;
 }

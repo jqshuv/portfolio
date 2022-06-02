@@ -7,11 +7,12 @@
 
 <template>
   <div>
+    <LanguageHeader />
     <article>
       <h1 class="rainbow-header">{{ $t('credits.title') }}</h1>
       <p class="comment">{{ $t('credits.comment') }}</p>
       <p>
-        <li class="text-white">
+        <li>
           <a href="https://github.com/remy">{{
             $t('credits.people.remy.name')
           }}</a
