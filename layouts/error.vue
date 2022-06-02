@@ -8,9 +8,15 @@
 <template>
   <div>
     <article>
-      <h1 v-if="error.statusCode == 404" class="rainbow-header">Page not found</h1>
-      <h1 v-else-if="error.statusCode == 403" class="rainbow-header">No permission</h1>
-      <h1 v-else-if="error.statusCode == 500" class="rainbow-header">Internal server error</h1>
+      <h1 v-if="error.statusCode == 404" class="rainbow-header">
+        Page not found
+      </h1>
+      <h1 v-else-if="error.statusCode == 403" class="rainbow-header">
+        No permission
+      </h1>
+      <h1 v-else-if="error.statusCode == 500" class="rainbow-header">
+        Internal server error
+      </h1>
       <h1 v-else class="rainbow-header">Error {{ error.statusCode }}</h1>
 
       <p class="comment">Error code: {{ error.statusCode }}</p>
@@ -20,7 +26,8 @@
         <span class="no-list">
           <li class="text-gray">
             <span>
-              UserAgent: <span class="text-white">({{ $device.userAgent }})</span>
+              UserAgent:
+              <span class="text-white">({{ $device.userAgent }})</span>
             </span>
           </li>
           <li class="text-gray">
@@ -40,9 +47,7 @@
           </li>
           <li class="text-gray">
             Type:
-            <span v-if="$device.isIos == true" class="text-white">
-              iOS;
-            </span>
+            <span v-if="$device.isIos == true" class="text-white"> iOS; </span>
             <span v-if="$device.isAndroid == true" class="text-white">
               Android;
             </span>
@@ -87,12 +92,12 @@
 
 <script>
 export default {
-    layout: "error",
-    props: {
-        error: {
-            type: Object,
-            required: true,
-        },
+  layout: 'error',
+  props: {
+    error: {
+      type: Object,
+      required: true,
     },
+  },
 }
 </script>
