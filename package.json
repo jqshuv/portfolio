@@ -3,18 +3,23 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "dev": "nuxt",
-    "build": "nuxt build",
+    "dev": "npm run locale && nuxt",
+    "build": "npm run locale && nuxt build",
     "start": "nuxt start",
     "generate": "nuxt generate",
     "lint:js": "eslint --ext \".js,.vue\" --ignore-path .gitignore .",
     "lint:prettier": "prettier --check .",
     "lint": "npm run lint:js && npm run lint:prettier",
-    "lintfix": "prettier --write --list-different . && npm run lint:js --fix"
+    "lintfix": "prettier --write --list-different . && npm run lint:js --fix",
+    "locale": "localazy download"
   },
   "dependencies": {
+    "@nuxtjs/axios": "^5.13.6",
     "@nuxtjs/i18n": "^7.2.2",
+    "@nuxtjs/robots": "^2.5.0",
+    "@nuxtjs/sitemap": "^2.4.0",
     "core-js": "^3.19.3",
+    "dotenv": "^16.0.1",
     "nuxt": "^2.15.8",
     "vue": "^2.6.14",
     "vue-server-renderer": "^2.6.14",
@@ -23,6 +28,7 @@
   },
   "devDependencies": {
     "@babel/eslint-parser": "^7.16.3",
+    "@localazy/cli": "^1.6.3",
     "@nuxtjs/color-mode": "^2.1.1",
     "@nuxtjs/device": "^2.1.0",
     "@nuxtjs/eslint-config": "^10.0.0",

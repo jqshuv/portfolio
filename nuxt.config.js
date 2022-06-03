@@ -1,3 +1,5 @@
+import 'dotenv'
+
 export default {
   // Target: https://go.nuxtjs.dev/config-target
   target: 'static',
@@ -39,7 +41,12 @@ export default {
   ],
 
   // Modules: https://go.nuxtjs.dev/config-modules
-  modules: ['@nuxtjs/i18n'],
+  modules: [
+    '@nuxtjs/i18n',
+    '@nuxtjs/sitemap',
+    '@nuxtjs/robots',
+    '@nuxtjs/axios',
+  ],
 
   i18n: {
     langDir: 'locales/',
@@ -54,8 +61,31 @@ export default {
         iso: 'de-DE',
         file: 'de.json',
       },
+      {
+        code: 'fr',
+        iso: 'fr-FR',
+        file: 'fr.json',
+      },
+      {
+        code: 'uk',
+        iso: 'uk-UK',
+        file: 'uk.json',
+      },
     ],
     defaultLocale: 'en',
+  },
+
+  sitemap: {
+    hostname: 'https://jqshuv.xyz',
+    gzip: true,
+    exclude: ['/**/legal*', '/**/privacy*', '/**/impressum*'],
+    path: '/sitemap.xml',
+  },
+
+  robots: {
+    UserAgent: '*',
+    Disallow: ['/**/legal*', '/**/privacy*', '/**/impressum*'],
+    Sitemap: 'https://jqshuv.xyz/sitemap.xml',
   },
 
   // Build Configuration: https://go.nuxtjs.dev/config-build

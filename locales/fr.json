@@ -1,0 +1,63 @@
+{
+  "credits": {
+    "comment": "Crédits aux personnes.",
+    "people": {
+      "remy": {
+        "description": "Il a fait le style et la mise en page de ce site. Il m'a également donné l'idée de ce site.",
+        "name": "Remy"
+      }
+    },
+    "title": "Crédits"
+  },
+  "discord": {
+    "comment": "Vous trouverez ici notre serveur Discord.",
+    "server": {
+      "id": "ID",
+      "invite": "Inviter",
+      "name": "Nom"
+    },
+    "title": "Discord"
+  },
+  "element": {
+    "footer": {
+      "credits": "Crédits",
+      "legal-notice": "Avis juridique",
+      "source": "Source"
+    },
+    "rainbow": "Retour à la page d'accueil. 🏠"
+  },
+  "index": {
+    "comment": "Bonjour! Ceci est le site de mon portfolio.",
+    "footer": "Merci beaucoup d'avoir visité cette page. 🤍",
+    "text": {
+      "1": "J'ai 14 ans et j'étudie actuellement dans un gymnase en Allemagne. J'apprends actuellement JavaScript, React, Java, HTML, CSS et Python. J'aime les serveurs Ubuntu et travailler avec eux tous les jours. J'aime aussi jouer à des jeux vidéo comme Minecraft et parfois Call of Duty.",
+      "2": "Actuellement, je travaille sur certains projets dans mon organisation GitHub | comme | ou",
+      "3": "Je suis également très intéressé par DevOps, Docker et Kubernetes et j'apprends actuellement à les utiliser."
+    }
+  },
+  "legal-notice": {
+    "comment": {
+      "contact-options": "Options de contact",
+      "service-provider": "Fournisseur"
+    },
+    "contact": {
+      "contact-form": "Formulaire de contact",
+      "email": "E-mail",
+      "phone": "Téléphone"
+    },
+    "info": {
+      "email": {
+        "at": "Changez le « [at] » par le symbole « @ »"
+      }
+    },
+    "title": "Mentions légales"
+  },
+  "licenses": {
+    "comment": "Voici toutes les licences que j'utilise pour mes projets.",
+    "license": {
+      "isc": "Licence ISC",
+      "mit": "Licence MIT"
+    },
+    "title": "Licences"
+  }
+}

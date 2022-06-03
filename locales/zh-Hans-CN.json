@@ -1,0 +1,63 @@
+{
+  "credits": {
+    "comment": "归功于人们。",
+    "people": {
+      "remy": {
+        "description": "他做了这个网站的风格和布局。他还给了我这个网站的想法。",
+        "name": "雷米"
+      }
+    },
+    "title": "鸣谢"
+  },
+  "discord": {
+    "comment": "在这里你可以找到我们的 Discord 服务器。",
+    "server": {
+      "id": "身份证",
+      "invite": "邀请",
+      "name": "名字"
+    },
+    "title": "不和谐"
+  },
+  "element": {
+    "footer": {
+      "credits": "鸣谢",
+      "legal-notice": "法律声明",
+      "source": "来源"
+    },
+    "rainbow": "回家去吧🏠"
+  },
+  "index": {
+    "comment": "你好！这是我的投资组合网站。",
+    "footer": "非常感谢您访问此页面。🤍",
+    "text": {
+      "1": "我今年14岁，目前在德国的体育馆学习。我目前正在学习JavaScript、React、Java、HTML、CSS 和 Python我喜欢Ubuntu服务器，并且每天都在使用它们。我也喜欢玩《我的世界》等电子游戏，有时还有《使命召唤》。",
+      "2": "目前我正在 GitHub 组织的一些项目中工作 | 比如 | 或 ",
+      "3": "我也对 DevOps、Docker 和 Kubernetes 非常感兴趣，目前我正在学习如何使用它们。"
+    }
+  },
+  "legal-notice": {
+    "comment": {
+      "contact-options": "联系选项",
+      "service-provider": "服务供应商"
+    },
+    "contact": {
+      "contact-form": "联系表",
+      "email": "电子邮件",
+      "phone": "电话"
+    },
+    "info": {
+      "email": {
+        "at": "更改带有 “@” 符号的 “[at]”"
+      }
+    },
+    "title": "法律声明"
+  },
+  "licenses": {
+    "comment": "以下是我用于项目的所有许可证。",
+    "license": {
+      "isc": "ISC 许可证",
+      "mit": "MIT 执照"
+    },
+    "title": "许可证"
+  }
+}

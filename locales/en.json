@@ -50,5 +50,14 @@
       "source": "Source",
       "legal-notice": "Legal Notice"
     }
+  },
+  "discord": {
+    "title": "Discord",
+    "comment": "Here you can find our Discord server.",
+    "server": {
+      "name": "Name",
+      "id": "ID",
+      "invite": "Invite"
+    }
   }
 }
