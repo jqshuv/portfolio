@@ -4,7 +4,8 @@
   "private": true,
   "scripts": {
     "dev": "npm run locale && nuxt",
-    "build": "npm run locale && nuxt build",
+    "build": "nuxt build",
+    "build:locale": "npm run local && npm run build"
     "start": "nuxt start",
     "generate": "nuxt generate",
     "lint:js": "eslint --ext \".js,.vue\" --ignore-path .gitignore .",
