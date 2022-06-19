@@ -29,16 +29,16 @@
 </template>
 
 <script>
-  export default {
-    async asyncData({ $content, params }) {
-      const projects = await $content('projects')
-        .only(['title', 'description'])
-        .sortBy('asc')
-        .fetch()
+export default {
+  async asyncData({ $content, params }) {
+    const projects = await $content('projects')
+      .only(['title', 'description'])
+      .sortBy('asc')
+      .fetch()
 
-      return {
-        projects
-      }
+    return {
+      projects,
     }
-  }
+  },
+}
 </script>

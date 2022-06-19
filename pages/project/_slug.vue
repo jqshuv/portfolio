@@ -35,20 +35,20 @@
 </template>
 
 <script>
-  export default {
-    async asyncData({ $content, params }) {
-      const project = await $content('projects', params.slug).fetch()
+export default {
+  async asyncData({ $content, params }) {
+    const project = await $content('projects', params.slug).fetch()
 
-      return { project }
-    }
-  }
+    return { project }
+  },
+}
 </script>
 
 <style>
-  .nuxt-content {
-    color: #e1e3ee;
-  }
-  .nuxt-content code {
-    color: #f80000;
-  }
+.nuxt-content {
+  color: #e1e3ee;
+}
+.nuxt-content code {
+  color: #f80000;
+}
 </style>
