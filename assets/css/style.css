@@ -236,3 +236,8 @@ li {
 .no-list {
   list-style: none;
 }
+
+
+.highlight {
+  background-color: rgb(255, 0, 0)
+}
