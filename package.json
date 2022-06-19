@@ -3,9 +3,10 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "dev": "npm run locale && nuxt",
+    "dev": "nuxt",
+    "dev:locale": "npm run locale && nuxt",
     "build": "nuxt build",
-    "build:locale": "npm run local && npm run build"
+    "build:locale": "npm run local && npm run build",
     "start": "nuxt start",
     "generate": "nuxt generate",
     "lint:js": "eslint --ext \".js,.vue\" --ignore-path .gitignore .",
