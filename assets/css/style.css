@@ -103,6 +103,10 @@ a img {
   color: #e1e3ee;
 }
 
+.text-white a {
+  color: #e1e3ee !important;
+}
+
 .text-gray {
   color: rgb(199, 199, 199);
 }
@@ -239,4 +243,12 @@ li {
 
 .highlight {
   background-color: rgb(255, 0, 0);
+}
+
+.float-right {
+  float: right;
+}
+
+.float-left {
+  float: left;
 }

@@ -57,7 +57,8 @@
     "server": {
       "name": "Name",
       "id": "ID",
-      "invite": "Invite"
+      "invite": "Invite",
+      "click": "Click here"
     }
   }
 }

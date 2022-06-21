@@ -7,6 +7,7 @@
 
 <template>
   <div class="navbar">
+    <nuxt-link :to="localePath('/equipment')">Equipment</nuxt-link>
     <nuxt-link :to="localePath('/discord')">Discord</nuxt-link>
     <nuxt-link :to="switchLocalePath(path)">{{ text }}</nuxt-link>
   </div>

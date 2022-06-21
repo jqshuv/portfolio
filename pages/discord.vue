@@ -30,7 +30,16 @@
           <span class="text-white">{{ discordserver.id }}</span>
           <br />
         </span>
+        <br />
+        <span class="text-gray">
+          {{ $t('discord.server.invite') }}:
+          <a class="text-white" href="https://discord.gg/qrd" target="_blank">{{
+            $t('discord.server.click')
+          }}</a>
+          <br />
+        </span>
       </span>
+      <br />
       <DefaultRainbow />
       <DefaultFooter />
     </article>
