@@ -30,7 +30,7 @@
         </li>
         <li>
           <span class="text-gray">HDD 1:</span>
-          <span class="text-white">Toshiba P300 1TB"</span>
+          <span class="text-white">Toshiba P300 1TB</span>
         </li>
         <li>
           <span class="text-gray">HDD 2:</span>
@@ -88,9 +88,10 @@
               >Windows 11</a
             >
             /
-            <a class="text-white" href="https://manjaro.org/" target="_blank"
-              >Manjaro Linux</a
+            <a class="text-white" href="https://getfedora.org/" target="_blank"
+              >Fedora Linux</a
             >
+            <span class="text-gray"><small>(Workstation 36)</small></span>
           </span>
         </li>
         <li>
@@ -106,8 +107,9 @@
               class="text-white"
               href="https://www.jetbrains.com/products/"
               target="_blank"
-              >JetBrains Tools <small>(Github Education)</small></a
-            >,
+              >JetBrains Tools</a
+            >
+            <span class="text-gray"><small>(Github Education)</small></span>,
             <a class="text-white" href="https://insomnia.rest/" target="_blank"
               >Insomnia</a
             >
